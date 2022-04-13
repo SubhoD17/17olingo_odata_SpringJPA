@@ -1,0 +1,7 @@
+applications:
+- name: 17spring_odata
+  path: target/17spring_odata-0.0.1-SNAPSHOT.war
+  buildpack: java_buildpack
+  memory: 1024M
+  services:
+  - mysql
